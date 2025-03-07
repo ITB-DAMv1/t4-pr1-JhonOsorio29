@@ -2,3 +2,37 @@
 @model t4_pr1_JhonOsorio29.Pages.SimulationModel
 @{
 }
+<h1>
+	Dice cositas
+</h1>
+<table class="table">
+	<thead>
+		<tr>
+			<td> ID</td>
+			<td> Nom</td>
+			<td> Quantitat</td>
+			<td> Preu</td>
+		</tr>
+	</thead>
+	<tbody>
+		@*<tr>
+		<td>@Model.Product.Id</td>
+		<td>@Model.Product.Name</td>
+		<td>@Model.Product.Amount</td>
+		<td>@Model.Product.Price</td>
+		</tr>*@
+
+		@foreach (var p in Model.Simulation)
+		{
+			<tr>
+
+				<td> @p.Id</td>
+				<td> @p.Name</td>
+				<td> @p.Amount</td>
+				<td> @p.Price</td>
+			</tr>
+		}
+
+	</tbody>
+</table>
+<a asp-page="/AddProduct" class="btn btn-primary">Afegir producte</a>
