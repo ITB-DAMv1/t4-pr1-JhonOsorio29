@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "p/toAkieYP/1j+/qcOTsinC3xKynyrmfOFoiyoPfv0s=",
+  "Hash": "PQL/WCdvvBf1PYttftKjLOC6x4GtKFkTdsJChwKNoXI=",
   "Source": "t4-pr1-JhonOsorio29",
   "BasePath": "_content/t4-pr1-JhonOsorio29",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\holi.ico"
+    },
+    {
+      "Identity": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\wwwroot\\img\\icono.png",
+      "SourceId": "t4-pr1-JhonOsorio29",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\wwwroot\\",
+      "BasePath": "_content/t4-pr1-JhonOsorio29",
+      "RelativePath": "img/icono.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icono.png"
     },
     {
       "Identity": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\wwwroot\\img\\image.png",
