@@ -7,4 +7,11 @@
     <RootNamespace>t4_pr1_JhonOsorio29</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="Model-data\" />
+    <Folder Include="Test\" />
+    <Folder Include="Service\" />
+  </ItemGroup>
+
 </Project>
