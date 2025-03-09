@@ -46,14 +46,12 @@ namespace t4_pr1_JhonOsorio29.Pages
 
         private void SaveSimulationsToCsv()
         {
-            // Verificar si la carpeta Model-data existe, si no, la crea
             string directory = Path.GetDirectoryName(CsvFilePath);
             if (!Directory.Exists(directory))
             {
                 Directory.CreateDirectory(directory);
             }
 
-            // Verificar si el archivo existe para agregar encabezados solo la primera vez
             bool fileExists = System.IO.File.Exists(CsvFilePath);
 
             using (var writer = new StreamWriter(CsvFilePath, append: true, Encoding.UTF8))
@@ -63,7 +61,7 @@ namespace t4_pr1_JhonOsorio29.Pages
                     writer.WriteLine("Fecha;Tipo;Parametro;Rati;EnergiaGenerada;CostoKWh;PrecioKWh;TotalCostoKWh;TotalPrecioKWh");
                 }
 
-                var sim = Simulations[^1]; // Tomamos solo la última simulación agregada
+                var sim = Simulations[^1]; 
                 writer.WriteLine($"{sim.Date:yyyy-MM-dd};{sim.Tipe};{sim.Parameter};{sim.Rati};{sim.EnergyGenerated};{sim.CostKWh};{sim.PriceKWh};{sim.TotalCostKWh};{sim.TotalPriceKWh}");
             }
         }
@@ -74,9 +72,9 @@ namespace t4_pr1_JhonOsorio29.Pages
                 return;
 
             var lines = System.IO.File.ReadAllLines(CsvFilePath, Encoding.UTF8);
-            for (int i = 1; i < lines.Length; i++) // Saltamos la cabecera
+            for (int i = 1; i < lines.Length; i++) 
             {
-                var data = lines[i].Split(';'); // Ahora el delimitador es ";"
+                var data = lines[i].Split(';'); 
                 if (data.Length == 9)
                 {
                     Simulations.Add(new Simulation
