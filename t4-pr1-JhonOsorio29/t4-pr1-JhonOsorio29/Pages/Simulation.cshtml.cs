@@ -19,10 +19,8 @@ namespace t4_pr1_JhonOsorio29.Pages
 
         public void OnGet()
         {
-            if (System.IO.File.Exists(CsvFilePath) && Simulations.Count == 0)
-            {
-                LoadSimulationsFromCsv();
-            }
+            Simulations = LoadSimulationsFromCsv();
+           
         }
 
         public IActionResult OnPost()
@@ -46,14 +44,14 @@ namespace t4_pr1_JhonOsorio29.Pages
 
         private void SaveSimulationsToCsv()
         {
-            // Verificar si la carpeta Model-data existe, si no, la crea
+            // Verificamos si la carpeta Model-data existe, si no, la crea
             string directory = Path.GetDirectoryName(CsvFilePath);
             if (!Directory.Exists(directory))
             {
                 Directory.CreateDirectory(directory);
             }
 
-            // Verificar si el archivo existe para agregar encabezados solo la primera vez
+            // Verificamos si el archivo existe para agregar encabezados solo la primera vez
             bool fileExists = System.IO.File.Exists(CsvFilePath);
 
             using (var writer = new StreamWriter(CsvFilePath, append: true, Encoding.UTF8))
@@ -68,18 +66,20 @@ namespace t4_pr1_JhonOsorio29.Pages
             }
         }
 
-        private void LoadSimulationsFromCsv()
+        private List<Simulation> LoadSimulationsFromCsv()
         {
-            if (!System.IO.File.Exists(CsvFilePath))
-                return;
+            List<Simulation> simulations = new List<Simulation>();
 
-            var lines = System.IO.File.ReadAllLines(CsvFilePath, Encoding.UTF8);
-            for (int i = 1; i < lines.Length; i++) // Saltamos la cabecera
+            if (!System.IO.File.Exists(CsvFilePath))
+                return simulations;
+
+            var lines = System.IO.File.ReadAllLines(CsvFilePath, Encoding.UTF8).Skip(1); // Nos saltamos la cabecera
+            foreach (var line in lines)
             {
-                var data = lines[i].Split(';'); // Ahora el delimitador es ";"
+                var data = line.Split(';'); // Leemos los datos separados por ;
                 if (data.Length == 9)
                 {
-                    Simulations.Add(new Simulation
+                    simulations.Add(new Simulation
                     {
                         Date = DateTime.ParseExact(data[0], "yyyy-MM-dd", CultureInfo.InvariantCulture),
                         Tipe = data[1],
@@ -91,6 +91,7 @@ namespace t4_pr1_JhonOsorio29.Pages
                     });
                 }
             }
+            return simulations;
         }
     }
 }
