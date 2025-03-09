@@ -1,38 +1,95 @@
 ﻿@page
 @model t4_pr1_JhonOsorio29.Pages.SimulationModel
 @{
+    ViewData["Title"] = "Simulaciones";
 }
-<h1>
-	Dice cositas
-</h1>
-<table class="table">
-	<thead>
-		<tr>
-			<td> ID</td>
-			<td> Nom</td>
-			<td> Quantitat</td>
-			<td> Preu</td>
-		</tr>
-	</thead>
-	<tbody>
-		@*<tr>
-		<td>@Model.Product.Id</td>
-		<td>@Model.Product.Name</td>
-		<td>@Model.Product.Amount</td>
-		<td>@Model.Product.Price</td>
-		</tr>*@
 
-		@foreach (var p in Model.Simulation)
-		{
-			<tr>
+<div class="container">
+    <h2>Listado de simulaciones</h2>
 
-				<td> @p.Id</td>
-				<td> @p.Name</td>
-				<td> @p.Amount</td>
-				<td> @p.Price</td>
-			</tr>
-		}
+    <table class="table table-striped table-hover table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Fecha</th>
+                <th>Tipo</th>
+                <th>Parámetro</th>
+                <th>Rati</th>
+                <th>Energia Generada</th>
+                <th>Costo KwH</th>
+                <th>Precio KwH</th>
+                <th>Total Costo KwH</th>
+                <th>Total Precio KwH</th>
+            </tr>
+        </thead>
+        <script src="~/js/site.js"></script>
 
-	</tbody>
-</table>
-<a asp-page="/AddProduct" class="btn btn-primary">Afegir producte</a>
+        <tbody>
+            @if (SimulationModel.Simulations.Count > 0)
+            {
+                @foreach (var sim in SimulationModel.Simulations)
+                {
+                    <tr>
+                        <td>@sim.Date.ToString("yyyy-MM-dd")</td>
+                        <td>@sim.Tipe</td>
+                        <td>@sim.Parameter</td>
+                        <td>@sim.Rati</td>
+                        <td>@sim.EnergyGenerated</td>
+                        <td>@sim.CostKWh</td>
+                        <td>@sim.PriceKWh</td>
+                        <td>@sim.TotalCostKWh</td>
+                        <td>@sim.TotalPriceKWh</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="9" class="text-center">No hay simulaciones disponibles</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <button id="mostrar_formulario" class="btn btn-primary">Añadir Simulación</button>
+
+    <form method="post" class="mt-3" id="formulario" style="display:none;">
+        <div class="mb-3">
+            <label for="Tipe" class="form-label">Tipo de Energía</label>
+            <select class="form-control" id="Tipe" asp-for="NewSimulation.Tipe" required>
+                <option value="">Seleccione una opción</option>
+                <option value="Solar">Solar</option>
+                <option value="Eolic">Eólica</option>
+                <option value="Hidroelectric">Hidroeléctrica</option>
+            </select>
+            <span class="text-danger" asp-validation-for="NewSimulation.Tipe"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="Parameter" class="form-label" id="parameter-label">Parámetro</label>
+            <input type="number" class="form-control" id="Parameter" asp-for="NewSimulation.Parameter" step="0.01" min="0.01" required>
+            <span class="text-danger" asp-validation-for="NewSimulation.Parameter"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="Rati" class="form-label">Rati</label>
+            <input type="number" class="form-control" id="Rati" asp-for="NewSimulation.Rati" step="0.01" min="0.01" max="3" required>
+            <span class="text-danger" asp-validation-for="NewSimulation.Rati"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="CostKWh" class="form-label">Costo por KWh</label>
+            <input type="number" class="form-control" id="CostKWh" asp-for="NewSimulation.CostKWh" step="0.01" min="0.01" placeholder="Dejar vacío para usar 20">
+            <span class="text-danger" asp-validation-for="NewSimulation.CostKWh"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="PriceKWh" class="form-label">Precio por KWh</label>
+            <input type="number" class="form-control" id="PriceKWh" asp-for="NewSimulation.PriceKWh" step="0.01" min="0.01" placeholder="Dejar vacío para usar 20">
+            <span class="text-danger" asp-validation-for="NewSimulation.PriceKWh"></span>
+        </div>
+
+        <button type="submit" class="btn btn-success">Guardar Simulación</button>
+    </form>
+</div>
+
+

@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\model\\simulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|solutionrelative:t4-pr1-jhonosorio29\\model\\simulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\pages\\simulation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|solutionrelative:t4-pr1-jhonosorio29\\pages\\simulation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\pages\\simulation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|solutionrelative:t4-pr1-jhonosorio29\\pages\\simulation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\pages\\simulation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|solutionrelative:t4-pr1-jhonosorio29\\pages\\simulation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|solutionrelative:t4-pr1-jhonosorio29\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\model\\simulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|solutionrelative:t4-pr1-jhonosorio29\\model\\simulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,14 +31,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Simulation.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Model\\Simulation.cs",
+              "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\Model\\Simulation.cs",
+              "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Model\\Simulation.cs",
+              "RelativeToolTip": "t4-pr1-JhonOsorio29\\Model\\Simulation.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA4wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T01:57:39.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Simulation.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml.cs",
               "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml.cs",
               "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml.cs",
               "RelativeToolTip": "t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB0AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAowEQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T22:57:16.341Z"
+              "WhenOpened": "2025-03-09T01:57:37.698Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -52,34 +62,10 @@
               "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml",
               "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml",
               "RelativeToolTip": "t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-07T21:12:18.674Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Simulation.cs",
-              "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Model\\Simulation.cs",
-              "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\Model\\Simulation.cs",
-              "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Model\\Simulation.cs",
-              "RelativeToolTip": "t4-pr1-JhonOsorio29\\Model\\Simulation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T21:09:37.444Z",
+              "WhenOpened": "2025-03-09T01:52:59.312Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "t4-pr1-JhonOsorio29\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-07T21:47:05.496Z"
             }
           ]
         }

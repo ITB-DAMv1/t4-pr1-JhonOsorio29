@@ -1,51 +1,96 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using System.Diagnostics;
+using System.Collections.Generic;
 using System.Globalization;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-using System.Diagnostics;
-using System.Globalization;
-using FileWorking = System.IO;
+using System.IO;
+using System.Text;
 using t4_pr1_JhonOsorio29.Model;
 
 namespace t4_pr1_JhonOsorio29.Pages
 {
     public class SimulationModel : PageModel
     {
-		public string FileErrorMessage;
-		public List<SimulationModel> Products { get; set; } = new List<SimulationModel> { };
-		public void OnGet()
-		{
-			string filePath = @"ModelData\product.txt";
-			if (FileWorking.File.Exists(filePath))
-			{
-				string[] lines = FileWorking.File.ReadAllLines(filePath);
-				foreach (string line in lines)
-				{
+        private static string CsvFilePath = @"Model-data\simulation-data.csv";
 
-					string[] parts = line.Split('|');
-					if (parts.Length == 4)
-					{
-						Simulation product = new Simulation();
-						Simulation.Id = int.Parse(parts[0]);
-						Simulation.Name = parts[1];
-						product.Amount = int.Parse(parts[2]);
-						product.Price = decimal.Parse(parts[3], CultureInfo.InvariantCulture);
-						Products.Add(product);
-					}
-					else
-					{
-						FileErrorMessage = "Error de carrega dels atributs d'un producte";
-					}
-				}
-			}
-			else
-			{
-				FileErrorMessage = "Error de carrega de dades";
-			}
-			Debug.WriteLine(Path.GetFullPath(filePath));
-		}
-	}
+        public static List<Simulation> Simulations { get; set; } = new List<Simulation>();
 
+        [BindProperty]
+        public Simulation NewSimulation { get; set; }
+
+        public void OnGet()
+        {
+            if (System.IO.File.Exists(CsvFilePath) && Simulations.Count == 0)
+            {
+                LoadSimulationsFromCsv();
+            }
+        }
+
+        public IActionResult OnPost()
+        {
+            if (!ModelState.IsValid)
+            {
+                return Page();
+            }
+
+            NewSimulation.CostKWh ??= 20;
+            NewSimulation.PriceKWh ??= 20;
+
+            NewSimulation.calculateEnergy();
+
+            Simulations.Add(NewSimulation);
+
+            SaveSimulationsToCsv();
+
+            return RedirectToPage();
+        }
+
+        private void SaveSimulationsToCsv()
+        {
+            // Verificar si la carpeta Model-data existe, si no, la crea
+            string directory = Path.GetDirectoryName(CsvFilePath);
+            if (!Directory.Exists(directory))
+            {
+                Directory.CreateDirectory(directory);
+            }
+
+            // Verificar si el archivo existe para agregar encabezados solo la primera vez
+            bool fileExists = System.IO.File.Exists(CsvFilePath);
+
+            using (var writer = new StreamWriter(CsvFilePath, append: true, Encoding.UTF8))
+            {
+                if (!fileExists)
+                {
+                    writer.WriteLine("Fecha;Tipo;Parametro;Rati;EnergiaGenerada;CostoKWh;PrecioKWh;TotalCostoKWh;TotalPrecioKWh");
+                }
+
+                var sim = Simulations[^1]; // Tomamos solo la última simulación agregada
+                writer.WriteLine($"{sim.Date:yyyy-MM-dd};{sim.Tipe};{sim.Parameter};{sim.Rati};{sim.EnergyGenerated};{sim.CostKWh};{sim.PriceKWh};{sim.TotalCostKWh};{sim.TotalPriceKWh}");
+            }
+        }
+
+        private void LoadSimulationsFromCsv()
+        {
+            if (!System.IO.File.Exists(CsvFilePath))
+                return;
+
+            var lines = System.IO.File.ReadAllLines(CsvFilePath, Encoding.UTF8);
+            for (int i = 1; i < lines.Length; i++) // Saltamos la cabecera
+            {
+                var data = lines[i].Split(';'); // Ahora el delimitador es ";"
+                if (data.Length == 9)
+                {
+                    Simulations.Add(new Simulation
+                    {
+                        Date = DateTime.ParseExact(data[0], "yyyy-MM-dd", CultureInfo.InvariantCulture),
+                        Tipe = data[1],
+                        Parameter = double.Parse(data[2], CultureInfo.InvariantCulture),
+                        Rati = double.Parse(data[3], CultureInfo.InvariantCulture),
+                        EnergyGenerated = double.Parse(data[4], CultureInfo.InvariantCulture),
+                        CostKWh = double.Parse(data[5], CultureInfo.InvariantCulture),
+                        PriceKWh = double.Parse(data[6], CultureInfo.InvariantCulture)
+                    });
+                }
+            }
+        }
+    }
 }
