@@ -1,0 +1,64 @@
+﻿@page
+@model t4_pr1_JhonOsorio29.Pages.WaterConsumModel
+@{
+}
+@if (Model.Top10Municipios != null && Model.Top10Municipios.Any())
+{
+    <h2>Top 10 Municipios con Mayor Consumo de Agua</h2>
+    <table class="table table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Municipio</th>
+                <th>Consumo</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Top10Municipios)
+            {
+                <tr>
+                    <td>@item.Municipio</td>
+                    <td>@item.Consumo</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No hay datos disponibles para mostrar.</p>
+}
+
+<h2>Mediana de Consumo de Agua por Comarca</h2>
+<table class="table table-bordered">
+    <thead class="table-dark">
+        <tr>
+            <th>Comarca</th>
+            <th>Mediana</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.MedianaPorComarca)
+        {
+            <tr>
+                <td>@item.Comarca</td>
+                <td>@item.Mediana</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2>Municipios con Consumo Excesivo (Más de 999999)</h2>
+<ul>
+    @foreach (var municipio in Model.MunicipiosConsumoExcesivo)
+    {
+        <li>@municipio</li>
+    }
+</ul>
+
+<h2>Municipios con Tendencia Creciente en los Últimos 5 Años</h2>
+<ul>
+    @foreach (var municipio in Model.MunicipiosCrecientes)
+    {
+        <li>@municipio</li>
+    }
+</ul>
