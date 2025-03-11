@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("formulario").style.display = "block";
     });
 
+    //Para cambiar el nombre de parametro a el tipo que sea
     document.getElementById("Tipe").addEventListener("change", function () {
         var parameterLabel = document.getElementById("parameter-label");
         switch (this.value) {
@@ -28,6 +29,6 @@ document.addEventListener("DOMContentLoaded", function () {
     if (window.location.search.includes("handler=Post")) {
         document.getElementById("formulario").style.display = "none";
     }
-});
+})
 
 

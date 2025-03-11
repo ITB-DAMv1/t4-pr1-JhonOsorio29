@@ -30,7 +30,7 @@
                 {
                     <tr>
                         <td>@sim.Date.ToString("yyyy-MM-dd")</td>
-                        <td>@sim.Tipe</td>
+                        <td>@sim.Type</td>
                         <td>@sim.Parameter</td>
                         <td>@sim.Rati</td>
                         <td>@sim.EnergyGenerated</td>
@@ -55,41 +55,42 @@
     <form method="post" class="mt-3" id="formulario" style="display:none;">
         <div class="mb-3">
             <label for="Tipe" class="form-label">Tipo de Energía</label>
-            <select class="form-control" id="Tipe" asp-for="NewSimulation.Tipe" required>
+            <select class="form-control" id="Tipe" asp-for="SelectedTipe" required>
                 <option value="">Seleccione una opción</option>
                 <option value="Solar">Solar</option>
                 <option value="Eolic">Eólica</option>
                 <option value="Hidroelectric">Hidroeléctrica</option>
             </select>
-            <span class="text-danger" asp-validation-for="NewSimulation.Tipe"></span>
+            <span class="text-danger" asp-validation-for="SelectedTipe"></span>
         </div>
 
         <div class="mb-3">
             <label for="Parameter" class="form-label" id="parameter-label">Parámetro</label>
-            <input type="number" class="form-control" id="Parameter" asp-for="NewSimulation.Parameter" step="0.01" min="0.01" required>
-            <span class="text-danger" asp-validation-for="NewSimulation.Parameter"></span>
+            <input type="number" class="form-control" id="Parameter" asp-for="Parameter" step="0.01" min="0.01" value="" placeholder="0" required>
+            <span class="text-danger" asp-validation-for="Parameter"></span>
         </div>
 
         <div class="mb-3">
             <label for="Rati" class="form-label">Rati</label>
-            <input type="number" class="form-control" id="Rati" asp-for="NewSimulation.Rati" step="0.01" min="0.01" max="3" required>
-            <span class="text-danger" asp-validation-for="NewSimulation.Rati"></span>
+            <input type="number" class="form-control" id="Rati" asp-for="Rati" step="0.01" min="0.01" max="3" value="" placeholder="0" required>
+            <span class="text-danger" asp-validation-for="Rati"></span>
         </div>
 
         <div class="mb-3">
             <label for="CostKWh" class="form-label">Costo por KWh</label>
-            <input type="number" class="form-control" id="CostKWh" asp-for="NewSimulation.CostKWh" step="0.01" min="0.01" placeholder="Dejar vacío para usar 20">
-            <span class="text-danger" asp-validation-for="NewSimulation.CostKWh"></span>
+            <input type="number" class="form-control" id="CostKWh" asp-for="CostKWh" step="0.01" min="0.01" placeholder="Dejar vacío para usar 20">
+            <span class="text-danger" asp-validation-for="CostKWh"></span>
         </div>
 
         <div class="mb-3">
             <label for="PriceKWh" class="form-label">Precio por KWh</label>
-            <input type="number" class="form-control" id="PriceKWh" asp-for="NewSimulation.PriceKWh" step="0.01" min="0.01" placeholder="Dejar vacío para usar 20">
-            <span class="text-danger" asp-validation-for="NewSimulation.PriceKWh"></span>
+            <input type="number" class="form-control" id="PriceKWh" asp-for="PriceKWh" step="0.01" min="0.01" placeholder="Dejar vacío para usar 20">
+            <span class="text-danger" asp-validation-for="PriceKWh"></span>
         </div>
 
         <button type="submit" class="btn btn-success">Guardar Simulación</button>
     </form>
+
 </div>
 
 

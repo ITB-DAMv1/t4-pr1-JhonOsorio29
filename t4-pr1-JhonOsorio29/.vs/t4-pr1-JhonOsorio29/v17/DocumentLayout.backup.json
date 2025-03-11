@@ -1,18 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\",
+  "WorkspaceRootPath": "C:\\Users\\isard\\Documents\\Programacion\\pol puto\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\pages\\simulation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\pol puto\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\pages\\simulation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|solutionrelative:t4-pr1-jhonosorio29\\pages\\simulation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\model\\simulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\pol puto\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\model\\simulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|solutionrelative:t4-pr1-jhonosorio29\\model\\simulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\pages\\simulation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\pol puto\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\pages\\simulation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|solutionrelative:t4-pr1-jhonosorio29\\pages\\simulation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\pol puto\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\model\\solar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|solutionrelative:t4-pr1-jhonosorio29\\model\\solar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\pol puto\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\model\\hidroelectric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|solutionrelative:t4-pr1-jhonosorio29\\model\\hidroelectric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\pol puto\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\model\\eolic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|solutionrelative:t4-pr1-jhonosorio29\\model\\eolic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\pol puto\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\interfaces\\isimulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|solutionrelative:t4-pr1-jhonosorio29\\interfaces\\isimulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\pol puto\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|solutionrelative:t4-pr1-jhonosorio29\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,26 +50,90 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Hidroelectric.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\pol puto\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Model\\Hidroelectric.cs",
+              "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\Model\\Hidroelectric.cs",
+              "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\pol puto\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Model\\Hidroelectric.cs",
+              "RelativeToolTip": "t4-pr1-JhonOsorio29\\Model\\Hidroelectric.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T12:44:47.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Eolic.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\pol puto\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Model\\Eolic.cs",
+              "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\Model\\Eolic.cs",
+              "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\pol puto\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Model\\Eolic.cs",
+              "RelativeToolTip": "t4-pr1-JhonOsorio29\\Model\\Eolic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T12:44:38.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Solar.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\pol puto\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Model\\Solar.cs",
+              "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\Model\\Solar.cs",
+              "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\pol puto\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Model\\Solar.cs",
+              "RelativeToolTip": "t4-pr1-JhonOsorio29\\Model\\Solar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T21:33:34.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\pol puto\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\pol puto\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "t4-pr1-JhonOsorio29\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-10T23:02:53.352Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Simulation.cs",
-              "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Model\\Simulation.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\pol puto\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Model\\Simulation.cs",
               "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\Model\\Simulation.cs",
-              "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Model\\Simulation.cs",
+              "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\pol puto\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Model\\Simulation.cs",
               "RelativeToolTip": "t4-pr1-JhonOsorio29\\Model\\Simulation.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwCsAAACGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-09T01:57:39.448Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ISimulation.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\pol puto\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Interfaces\\ISimulation.cs",
+              "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\Interfaces\\ISimulation.cs",
+              "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\pol puto\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Interfaces\\ISimulation.cs",
+              "RelativeToolTip": "t4-pr1-JhonOsorio29\\Interfaces\\ISimulation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T22:01:14.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Simulation.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\pol puto\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml.cs",
               "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml.cs",
-              "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml.cs",
+              "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\pol puto\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml.cs",
               "RelativeToolTip": "t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAmwGYAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAkwFwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-09T01:57:37.698Z",
               "EditorCaption": ""
@@ -58,13 +142,14 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Simulation.cshtml",
-              "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml",
+              "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\pol puto\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml",
               "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml",
-              "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml",
+              "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\pol puto\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml",
               "RelativeToolTip": "t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEsAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-09T01:52:59.312Z"
+              "WhenOpened": "2025-03-09T01:52:59.312Z",
+              "EditorCaption": ""
             }
           ]
         }
