@@ -11,24 +11,36 @@
       "RelativeMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|solutionrelative:t4-pr1-jhonosorio29\\pages\\waterconsum.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|solutionrelative:t4-pr1-jhonosorio29\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\pages\\simulation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|solutionrelative:t4-pr1-jhonosorio29\\pages\\simulation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\pages\\simulation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|solutionrelative:t4-pr1-jhonosorio29\\pages\\simulation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\model\\waterconsum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|solutionrelative:t4-pr1-jhonosorio29\\model\\waterconsum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\model\\comarcaconsumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|solutionrelative:t4-pr1-jhonosorio29\\model\\comarcaconsumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\interfaces\\iwaterconsum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|solutionrelative:t4-pr1-jhonosorio29\\interfaces\\iwaterconsum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\pages\\simulation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|solutionrelative:t4-pr1-jhonosorio29\\pages\\simulation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\model\\solar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|solutionrelative:t4-pr1-jhonosorio29\\model\\solar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\model\\simulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|solutionrelative:t4-pr1-jhonosorio29\\model\\simulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\pages\\simulation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|solutionrelative:t4-pr1-jhonosorio29\\pages\\simulation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|c:\\users\\isard\\documents\\programacion\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\t4-pr1-jhonosorio29\\interfaces\\isimulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D5FE64-562C-4F2D-A711-8386F8081D77}|t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29.csproj|solutionrelative:t4-pr1-jhonosorio29\\interfaces\\isimulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,27 +58,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "t4-pr1-JhonOsorio29\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-09T03:39:03.769Z"
+              "DocumentIndex": 5,
+              "Title": "IWaterConsum.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Interfaces\\IWaterConsum.cs",
+              "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\Interfaces\\IWaterConsum.cs",
+              "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Interfaces\\IWaterConsum.cs",
+              "RelativeToolTip": "t4-pr1-JhonOsorio29\\Interfaces\\IWaterConsum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T02:13:56.142Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WaterConsum.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Pages\\WaterConsum.cshtml.cs",
-              "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\Pages\\WaterConsum.cshtml.cs",
-              "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Pages\\WaterConsum.cshtml.cs",
-              "RelativeToolTip": "t4-pr1-JhonOsorio29\\Pages\\WaterConsum.cshtml.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAjwFcAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ComarcaConsumption.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Model\\ComarcaConsumption.cs",
+              "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\Model\\ComarcaConsumption.cs",
+              "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Model\\ComarcaConsumption.cs",
+              "RelativeToolTip": "t4-pr1-JhonOsorio29\\Model\\ComarcaConsumption.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T03:32:55.543Z"
+              "WhenOpened": "2025-03-13T13:12:08.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WaterConsum.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Model\\WaterConsum.cs",
+              "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\Model\\WaterConsum.cs",
+              "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Model\\WaterConsum.cs",
+              "RelativeToolTip": "t4-pr1-JhonOsorio29\\Model\\WaterConsum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAACYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T13:09:26.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Simulation.cshtml",
+              "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml",
+              "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml",
+              "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml",
+              "RelativeToolTip": "t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T02:09:58.476Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -76,58 +116,72 @@
               "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\Pages\\WaterConsum.cshtml",
               "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Pages\\WaterConsum.cshtml",
               "RelativeToolTip": "t4-pr1-JhonOsorio29\\Pages\\WaterConsum.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAkwCcAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwCsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-09T03:32:46.335Z",
+              "WhenOpened": "2025-03-13T02:09:52.657Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WaterConsum.cs",
-              "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Model\\WaterConsum.cs",
-              "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\Model\\WaterConsum.cs",
-              "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Model\\WaterConsum.cs",
-              "RelativeToolTip": "t4-pr1-JhonOsorio29\\Model\\WaterConsum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Solar.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Model\\Solar.cs",
+              "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\Model\\Solar.cs",
+              "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Model\\Solar.cs",
+              "RelativeToolTip": "t4-pr1-JhonOsorio29\\Model\\Solar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T03:10:32.502Z"
+              "WhenOpened": "2025-03-13T01:57:00.901Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Simulation.cs",
               "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Model\\Simulation.cs",
               "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\Model\\Simulation.cs",
               "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Model\\Simulation.cs",
               "RelativeToolTip": "t4-pr1-JhonOsorio29\\Model\\Simulation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wAcAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T01:57:39.448Z"
+              "WhenOpened": "2025-03-12T11:50:51.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Simulation.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml.cs",
               "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml.cs",
               "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml.cs",
               "RelativeToolTip": "t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T01:57:37.698Z"
+              "WhenOpened": "2025-03-12T11:39:11.873Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Simulation.cshtml",
-              "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml",
-              "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml",
-              "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml",
-              "RelativeToolTip": "t4-pr1-JhonOsorio29\\Pages\\Simulation.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-09T01:52:59.312Z"
+              "DocumentIndex": 9,
+              "Title": "ISimulation.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Interfaces\\ISimulation.cs",
+              "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\Interfaces\\ISimulation.cs",
+              "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Interfaces\\ISimulation.cs",
+              "RelativeToolTip": "t4-pr1-JhonOsorio29\\Interfaces\\ISimulation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T19:33:05.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WaterConsum.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Pages\\WaterConsum.cshtml.cs",
+              "RelativeDocumentMoniker": "t4-pr1-JhonOsorio29\\Pages\\WaterConsum.cshtml.cs",
+              "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\t4-pr1-JhonOsorio29\\Pages\\WaterConsum.cshtml.cs",
+              "RelativeToolTip": "t4-pr1-JhonOsorio29\\Pages\\WaterConsum.cshtml.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAQwJQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:16:46.121Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfWaterConsumption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <WaterConsumption>
+    <Year>2012</Year>
+    <ComarcaCode>1</ComarcaCode>
+    <Comarca>Barcelona</Comarca>
+    <Population>1</Population>
+    <DomesticConsumption>2</DomesticConsumption>
+    <EconomicConsumption>2</EconomicConsumption>
+    <TotalConsumption>2</TotalConsumption>
+    <PerCapitaConsumption>2</PerCapitaConsumption>
+    <AvgConsumption>0</AvgConsumption>
+  </WaterConsumption>
+</ArrayOfWaterConsumption>

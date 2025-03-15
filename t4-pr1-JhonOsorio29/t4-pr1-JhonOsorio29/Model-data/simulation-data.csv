@@ -1,5 +1,3 @@
 ﻿Fecha;Tipo;Parametro;Rati;EnergiaGenerada;CostoKWh;PrecioKWh;TotalCostoKWh;TotalPrecioKWh
-2025-03-09;Hidroelectric;2;2;39,2;20;20;784;784
-2025-03-09;Solar;2;2;4;20;20;80;80
-2025-03-09;Eolic;22;2;21296;20;20;425920;425920
-2025-03-10;Solar;4;3;12;20;20;240;240
+2025-03-11;solar;2;2;4;20;20;80;80
+2025-03-13;eolic;10;3;30;1;10;30;300

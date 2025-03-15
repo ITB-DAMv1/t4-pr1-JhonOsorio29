@@ -1,13 +1,14 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System;
+
 namespace t4_pr1_JhonOsorio29.Model
 {
-    public class Simulation
+    public abstract class Simulation : ISimulation
     {
         public DateTime Date { get; set; } = DateTime.Now;
 
         [Required]
-        public string Tipe { get; set; } // = solar,eolic,hidroelèctric
+        public string? Type { get; protected set; }
 
         [Required]
         [Range(0.01, double.MaxValue, ErrorMessage = "el valor debe de ser mayor de 0")]
@@ -34,24 +35,19 @@ namespace t4_pr1_JhonOsorio29.Model
             set => _priceKwh = value;
         }
 
-        public double EnergyGenerated { get; set;}
+        public double EnergyGenerated { get; set; }
         public double? TotalCostKWh => EnergyGenerated * CostKWh;
         public double? TotalPriceKWh => EnergyGenerated * PriceKWh;
 
-        public void calculateEnergy()
+        public override string ToString()
         {
-            switch (Tipe.ToLower())
-            {
-                case "solar":
-                    EnergyGenerated = Parameter * Rati;
-                    break;
-                case "eolic":
-                    EnergyGenerated = Math.Pow(Parameter, 3) * Rati;
-                    break;
-                case "hidroelectric":
-                    EnergyGenerated = Parameter * 9.8 * Rati;
-                    break;
-            }
+            return $"{Date:yyyy-MM-dd};{Type};{Parameter};{Rati};{EnergyGenerated};{CostKWh};{PriceKWh};{TotalCostKWh};{TotalPriceKWh}";
         }
+
+
+
+        public abstract void CalculateEnergy();
+
+
     }
 }
